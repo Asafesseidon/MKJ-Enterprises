@@ -2,27 +2,27 @@ function showOther(indicator){
 
   if (indicator == 0) {
     //add animation class to body to transition into next page
-    window.location.href= "../MKJENTERPRISES.html"
+    window.location.href= "./index.html"
   }
 
   else if (indicator == 1) {
     //add animation class to body to transition into next page
-    window.location.href= "../MKJFORROS.html"
+    window.location.href= "./MKJFORROS.html"
   }
   
   else if (indicator == 2) {
     //add animation class to body to transition into next page
-    window.location.href= "../MKJMUSIC.HTML"
+    window.location.href= "./MKJMUSIC.HTML"
   }
 
   else if (indicator == 3) {
     //add animation class to body to transition into next page  
-    window.location.href= "../contacts.html"
+    window.location.href= "./contacts.html"
   }
 
   else if (indicator == 4) {
     //add animation class to body to transition into next page
-    window.location.href= "../patrons.html"
+    window.location.href= "./patrons.html"
   }
 }
 function link(url){
