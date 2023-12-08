@@ -1,0 +1,49 @@
+/*.centralizado{
+    font-size: 7vh;
+}*/
+.cardInstrumento{
+    max-height:30vh;
+}
+.baner{
+    max-width: 12vh;
+}
+
+.diagrama_baner{
+    display: block;
+    width:11vh;
+}
+
+.header{
+    margin: auto;
+    margin-right: auto;
+    width: max-content;
+}
+h1{
+    
+    font-size: xx-large;
+}
+.line{
+    height: 1vh;
+    background-color: black;
+}
+.diagrama{
+    height: 1vh;
+    display: inline-block;
+    width:1vh;
+}
+
+.nav-item:hover{
+    border: rgb(211, 211, 211) 2px solid;
+    background-color: rgb(211, 211, 211) ;
+    border-radius: 15%;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(139, 155, 154);
+    border-radius: 10%;
+}
+.logo{
+    max-width: 30vh;
+    max-height: 30vh;
+}
+

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="athur" content="
+    João Gabriel Pereira Lopes
+    Asafe Domingues Marcelino
+    Erick de Castro
+    ">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./base.js"></script>
+  <link rel="stylesheet" href="./geral.css">
+
+  <link rel="icon" href="./Assets/noun-luthier-4051956.svg">
+
+  <title>MKJ MUSIC</title>
+</head>
+
+
+<body class="bg-dark">
+  <div data-bs-spy="scroll" data-bs-target="#navbarMusic" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <div id="scrollspyHeadingTop"></div>
+
+    <!-- HEADER -->
+
+    <header class="sticky-top">
+
+      <nav id="navbarMusic" class="navbar navbar-expand-lg navbar-light bg-info-subtle">
+        <div class="container-fluid">
+          <img src="./Assets/noun-luthier-banner.svg" class="baner">
+          <a class="navbar-brand" href="#scrollspyHeadingTop" class="text-info">
+            <div class="p">MKJ MUSIC</div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class="text-info"
+                  onclick="showOther(0)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class="text-info"
+                  onclick="showOther(4)">Colaboradores</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" class="text-info">
+                  Outras páginas
+                </a>
+                <ul class="dropdown-menu bg-info-subtle" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#" class="text-info" onclick="showOther(1)">MKJ FORROS</a></li>
+                  <li><a class="dropdown-item" href="#" class="text-info" onclick="showOther(2)">MKJ MUSIC</a></li>
+                  <li><a class="dropdown-item" href="#" class="text-info" onclick="showOther(3)">CONTACTS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" class="text-info">
+                  Navegação rápida
+                </a>
+                <ul class="dropdown-menu bg-info-subtle" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#scrollspyHeading1" class="text-info">1-Exemplos de trabalhos</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading2" class="text-info">2-Instrumentos a venda</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" class="text-info">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="line"></div>
+    </header>
+
+    <br>
+    <br>
+
+    <!-- MAIN SITE -->
+
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="row">
+          <img class="col-sm-12" src="./Assets/BannerMusic.jpeg" alt="">
+        </div>
+      </div>
+      <div class="diagrama"></div>
+
+    </div>
+    <div id="scrollspyHeading1" class="line bg-info-subtle"></div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- EXEMPLES -->
+
+    <div class="container">
+      <div class="d-flex justify-content-center container-center">
+        <h1 class="bg-info-subtle">
+          Exemplos de trabalhos das MKJ MUSIC</h1>
+      </div>
+      <div class="d-sm-flex justify-content-center">
+        <div class="col-sm-6">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Assets/e26ae44e-5db9-4a53-be03-b642ee27d8d8.jfif" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./Assets/flauta_transversal_harmonics_hfl_5237s_em_do_3893_1_ad8970a3b411f1f78ce2446c0dbf3ef7-PhotoRoom.png-PhotoRoom.png"
+                  class="d-block w-100">
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CONTENT -->
+
+    <div class="diagrama"></div>
+    <div id="scrollspyHeading2" class="line bg-info-subtle"></div>
+
+    <div class="diagrama"></div>
+
+    <div class="diagrama">
+    </div>
+    <div class="diagrama"></div>
+    <div class="diagrama"></div>
+    <div class="diagrama"></div>
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <div class="d-flex justify-content-center container-center">
+        <h1 class="bg-info-subtle">
+          Instrumentos à venda na MKJ MUSIC</h1>
+      </div>
+      <div class="diagrama"></div>
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./Assets/Boquilha sax tenor Bari espírit 1 unidade.jpg" class="card-img-top bg-primary-subtle"
+              alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Boquilha Sax Tenor Espirit Bari 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-secondary">R$200,00</a>
+            </div>
+          </div>
+          <div class="diagrama"></div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./Assets/Flauta Yamaha yfl100 1320 soprano.jpeg" class="card-img-top bg-primary-subtle" alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Flauta Yamaha YFL100 1320 Soprano</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-secondary">R$1320,00</a>
+            </div>
+          </div>
+          <div class="diagrama"></div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./Assets/Clarinete roiden 17 chaves 590.jpeg" class="card-img-top bg-primary-subtle" alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Clarinete Roiden 17 chaves 590</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-secondary">R$590,00</a>
+            </div>
+          </div>
+          <div class="diagrama"></div>
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./Assets/Boquilha sax soprano b5 rico Royal 1.jpeg" class="card-img-top bg-primary-subtle"
+              alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Boquilha Sax Soprano B5 Rico Royal 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-secondary">R$150,00</a>
+            </div>
+          </div>
+          <div class="diagrama"></div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./Assets/Boquilha sax soprano Rico Royal M5 1 unidade.jpeg" class="card-img-top bg-primary-subtle"
+              alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Boquilha Sax Soprano Rico Royal M5 1 </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-secondary">R$150,00</a>
+            </div>
+          </div>
+          <div class="diagrama"></div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./Assets/Boquilha de clarinete bari sprit 3 unidades.jpg" class="card-img-top bg-primary-subtle"
+              alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Boquilha de Clarinete Esprit Bari 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-secondary">R$150,00</a>
+            </div>
+          </div>
+
+          <div class="diagrama"></div>
+        </div>
+
+        <div class="col-sm-4">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
