@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="athur" content="
+    João Gabriel Pereira Lopes
+    Asafe Domingues Marcelino
+    ">
+
+  <script src="../scripts/base.js"></script>
+
+  <!--<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./introduction.css">
+  <link rel="stylesheet" href="../STYLE/geral.css">
+  <link rel="icon" href="./imagens/noun-contacts-1100711.svg">
+
+  <title>CONTACTS</title>
+</head>
+
+
+<body class="bg-dark">
+  <div data-bs-spy="scroll" data-bs-target="#navbarMusic" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <div id="scrollspyHeadingTop"></div>
+    <header class="sticky-top">
+
+      <!-- HEADER -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning-subtle">
+        <div class="container-fluid">
+          <img src="imagens/noun-contacts-banner.svg" class="baner">
+          <a class="navbar-brand" href="#scrollspyHeadingTop" class="text-info">
+            <div class="p">CONTACTS</div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="MKJENTERPRISES.html" class="text-info">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class="text-info"
+                  onclick="showOther(4)">Colaboradores</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" class="text-info">
+                  Outras páginas
+                </a>
+                <ul class="dropdown-menu bg-warning-subtle" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../MKJFORROS/MKJFORROS.html" class="text-info"
+                      onclick="showOther(1)">MKJ FORROS</a></li>
+                  <li><a class="dropdown-item" href="../MKJMUSIC/MKJMUSIC.HTML" class="text-info"
+                      onclick="showOther(2)">MKJ MUSIC</a></li>
+                  <li><a class="dropdown-item" href="../MKJENTERPRISES/contacts.html" class="text-info"
+                      onclick="showOther(3)">CONTACTS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" class="text-info">
+                  Navegação rápida
+                </a>
+                <ul class="dropdown-menu bg-warning-subtle" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#scrollspyHeading1" class="text-info">1-Meios de contato</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" class="text-info">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="line"></div>
+    </header>
+
+
+
+    <!-- MAIN SITE -->
+
+
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="row">
+          <img src="./imagens/BannerContatos.jpeg" class="col-sm-12">
+        </div>
+      </div>
+      <div class="diagrama"></div>
+    </div>
+    <div id="scrollspyHeading1" class="line bg-warning-subtle">
+
+
+
+      <br>
+      <br>
+      <br>
+
+      <!-- CONTACTS -->
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div id="contacts">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <h1 class="bg-warning-subtle">
+            MEIOS DE CONTATO
+          </h1>
+        </div>
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Coloque o seu email aqui">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"
+              placeholder="Coloque o sua senha aqui">
+          </div>
+          <!-- Button trigger modal -->
+          <button id="buttonSubmit" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Enviar formulário
+          </button>
+
+          <!-- Modal -->
+          <div class=" modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal">
+                  O seu e-mail foi cadastrado
+                  <br>
+                  <br>
+                  Descrição do pedido
+                  <form action="" id="requestForm">
+                    <div class="input-group">
+                      <textarea class="form-control" aria-label="With textarea" id="exampleInputText1"
+                        placeholder="Descrição do pedido"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" onclick="submitRequest()">Enviar o pedido à MKJ
+                        ENTERPRISES</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="diagrama"></div>
+          <content class="container">
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="row">
+                  <div class="col-sm-3"></div>
+                  <img src="./imagens/b3ac8ccf1cfc9e17b1001debac8a93f9.png" class="col-sm-2 contatos"
+                    onclick="link('https:maps.app.goo.gl/ACQJiQGHMdMAtoHw5')">
+                  <img src="./imagens/noun-whatsapp-6272210.svg" class="col-sm-2 contatos"
+                    onclick="link('https:wa.me/5521991569443')">
+                  <img src="./imagens/noun-instagram-6204292.svg" class="col-sm-2 contatos"
+                    onclick="link('https:www.instagram.com/mkjforros')">
+                  <div class="col-sm-3"></div>
+                </div>
+              </div>
+            </div>
+            <div class="diagrama"></div>
+      </div>
+    </div>
+    </contacts>
+  </div>
+</body>
+
+</html>

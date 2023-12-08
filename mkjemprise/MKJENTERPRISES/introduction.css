@@ -1,0 +1,27 @@
+h1{
+    text-transform:uppercase;
+}
+.branco{
+    background-color: #fff;
+}
+
+.purple{
+    color: rgb(205, 179, 179);
+}
+.contatos{
+    transition: transform 1.3s;
+}
+.contatos:hover{
+    transform: scale(1.3);
+}
+.logo{
+    max-width: 30vh;
+    max-height: 30vh;
+}
+.exemplo{
+    max-width: 40vh;
+    max-height: 40vh;
+}
+.setores{
+    max-height: 200px;
+}
